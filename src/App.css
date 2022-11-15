@@ -430,7 +430,7 @@ body.menu-expanded button path {
  width: 250px;
  height: 40px;
  padding: 10px;
- border: none;
+ border: 1px solid var(--green-flourescent);
 }
 
 #contact .form .inputs .text_area{
@@ -438,7 +438,7 @@ body.menu-expanded button path {
   width: 250px;
   height: 90px;
   padding: 10px;
-  border: none;
+  border: 1px solid var(--green-flourescent);
  }
 
  #contact .form .inputs .button_form{
@@ -466,28 +466,27 @@ footer {
   color: white;
 }
 
-footer .logo {
+footer .logo_footer {
   display: inline-block;
   margin-bottom: 2.4rem;
-}
-
-footer .logo svg {
-  width: 23.6rem;
-  height: 3.1rem;
-}
-
-footer .logo path {
-  fill: white;
+  width: 140px;
 }
 
 footer p {
-  color: var(--brand-beige);
+  color: white;
   line-height: 2;
   margin-bottom: 3.2rem;
 }
 
 footer .social-links {
   justify-content: flex-start;
+  cursor: pointer;
+}
+
+footer .social-links a:hover {
+  background: var(--headline--);
+  transition: 1s;
+  font-size: 17px;
 }
 
 /*BAACK TO TOP*/
