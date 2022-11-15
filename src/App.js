@@ -1,7 +1,7 @@
 
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDatabase, faMicrochip, faWifi } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faMicrochip, faWifi, faBook, faDumbbell, faFutbol, faHammer, faMicrophone, faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -120,18 +120,15 @@ function App() {
         <div class="wrapper">
           <header>
             <h4>Serviços</h4>
-            <h2>Como pode ajuda-lo a se sentir melhor?</h2>
+            <h2>O que gosto de fazer</h2>
           </header>
 
           <div class="cards">
             <div class="card">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                <path d="M17.091 8.18188L10.091 15.1819L6.90918 12.0001" stroke="#00856F" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
 
-              <h3>Problemas digestivos</h3>
+              <FontAwesomeIcon icon={faBook} />
+
+              <h3>Estudar</h3>
 
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
                 expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
@@ -139,13 +136,9 @@ function App() {
             </div>
 
             <div class="card">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                <path d="M17.091 8.18188L10.091 15.1819L6.90918 12.0001" stroke="#00856F" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+              <FontAwesomeIcon icon={faDumbbell} />
 
-              <h3>Problemas com a respiração</h3>
+              <h3>Academia</h3>
 
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
                 expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
@@ -153,13 +146,9 @@ function App() {
             </div>
 
             <div class="card">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                <path d="M17.091 8.18188L10.091 15.1819L6.90918 12.0001" stroke="#00856F" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+              <FontAwesomeIcon icon={faFutbol} />
 
-              <h3>Saúde Hormonal</h3>
+              <h3>Construir</h3>
 
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
                 expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
@@ -167,13 +156,9 @@ function App() {
             </div>
 
             <div class="card">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                <path d="M17.091 8.18188L10.091 15.1819L6.90918 12.0001" stroke="#00856F" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+              <FontAwesomeIcon icon={faHammer} />
 
-              <h3>Bem estar mental</h3>
+              <h3>Futebol</h3>
 
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
                 expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
@@ -181,13 +166,9 @@ function App() {
             </div>
 
             <div class="card">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                <path d="M17.091 8.18188L10.091 15.1819L6.90918 12.0001" stroke="#00856F" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+              <FontAwesomeIcon icon={faMicrophone} />
 
-              <h3>Cuidados pediatricos</h3>
+              <h3>Comunicação</h3>
 
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
                 expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
@@ -195,13 +176,9 @@ function App() {
             </div>
 
             <div class="card">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="12" fill="#DCE9E2" />
-                <path d="M17.091 8.18188L10.091 15.1819L6.90918 12.0001" stroke="#00856F" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
+              <FontAwesomeIcon icon={faScaleBalanced} />
 
-              <h3>Saude do coração</h3>
+              <h3>Leis</h3>
 
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
                 expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
@@ -233,10 +210,156 @@ function App() {
 
 
           <div class="col-b">
-            <img src="./img/doutor.png" alt="doutor feliz segurando pranchetas com pacientes" />
+
+            <img src={require("./img/arbitro.jpeg")} alt="Informações" />
 
           </div>
 
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="wrapper">
+          <header>
+            <h4>Minhas</h4>
+            <h2>Hard-skills</h2>
+          </header>
+
+          <div class="cards">
+            <div class="card top">
+
+              <FontAwesomeIcon icon={faBook} />
+
+              <h3>Estudar</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                esse nobis soluta molestiae itaque!</p>
+            </div>
+
+            <div class="card transparent">
+              <FontAwesomeIcon icon={faDumbbell} />
+
+              <h3>Academia</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                esse nobis soluta molestiae itaque!</p>
+            </div>
+
+            <div class="card top">
+              <FontAwesomeIcon icon={faFutbol} />
+
+              <h3>Construir</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                esse nobis soluta molestiae itaque!</p>
+            </div>
+
+            <div class="card transparent">
+              <FontAwesomeIcon icon={faHammer} />
+
+              <h3>Futebol</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                esse nobis soluta molestiae itaque!</p>
+            </div>
+
+            <div class="card top">
+              <FontAwesomeIcon icon={faMicrophone} />
+
+              <h3>Comunicação</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                esse nobis soluta molestiae itaque!</p>
+            </div>
+
+            <div class="card transparent">
+              <FontAwesomeIcon icon={faScaleBalanced} />
+
+              <h3>Leis</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                esse nobis soluta molestiae itaque!</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='bg header_top'>
+          <div class="wrapper">
+
+            <header className='header_top'>
+              <h4 className='text_white'>Minhas</h4>
+              <h2 className='text_white'>Soft-skills</h2>
+            </header>
+
+            <div class="cards">
+              <div class="card transparent2">
+
+                <FontAwesomeIcon icon={faBook} className="icon_card" />
+
+                <h3>Estudar</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                  expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                  esse nobis soluta molestiae itaque!</p>
+              </div>
+
+              <div class="card top2">
+                <FontAwesomeIcon icon={faDumbbell} className="icon_card" />
+
+                <h3>Academia</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                  expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                  esse nobis soluta molestiae itaque!</p>
+              </div>
+
+              <div class="card transparent2">
+                <FontAwesomeIcon icon={faFutbol} className="icon_card" />
+
+                <h3>Construir</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                  expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                  esse nobis soluta molestiae itaque!</p>
+              </div>
+
+              <div class="card top2">
+                <FontAwesomeIcon icon={faHammer} className="icon_card" />
+
+                <h3>Futebol</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                  expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                  esse nobis soluta molestiae itaque!</p>
+              </div>
+
+              <div class="card transparent2">
+                <FontAwesomeIcon icon={faMicrophone} className="icon_card" />
+
+                <h3>Comunicação</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                  expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                  esse nobis soluta molestiae itaque!</p>
+              </div>
+
+              <div class="card top2">
+                <FontAwesomeIcon icon={faScaleBalanced} className="icon_card" />
+
+                <h3>Leis</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
+                  expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
+                  esse nobis soluta molestiae itaque!</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -246,7 +369,7 @@ function App() {
           <div class="col-a">
             <header>
 
-              <h2>Entre em contato com a gente</h2>
+              <h2>Fale comigo</h2>
             </header>
 
             <div class="content">
@@ -288,7 +411,25 @@ function App() {
 
 
           <div class="col-b">
-            <img src="img/imagehomemcelular.png" alt="Homem celular sorrindo" />
+            <div className="form">
+              <div className='form_container'>
+                <div className='inputs'>
+                  <input type='text' placeholder="Nome" className="input_form" required maxLength="30" />
+                </div>
+                <div className='inputs'>
+                  <input type='email' placeholder="E-mail" className="input_form" required maxLength="30" />
+                </div>
+                <div className='inputs'>
+                  <input type='number' placeholder="Telefone" className="input_form" required maxLength="11" />
+                </div>
+                <div className='inputs'>
+                  <textarea className='text_area' placeholder='digite algo' rows="4" cols="50" maxLength="50"></textarea>
+                </div>
+                <div className='inputs'>
+                  <button className='button_form'>Enviar</button>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
