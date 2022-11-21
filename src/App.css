@@ -53,14 +53,7 @@ section {
   padding-block: 10rem;
 }
 
-section header h1 {
-  font-size: 3.4rem;
-  color: var(--headline--);
-  line-height: 130%;
-  margin: 4.5rem 0px;
-}
-
-section .header_top{
+section .header_top {
   margin-top: 8rem;
 }
 
@@ -106,8 +99,6 @@ nav .wrapper {
   align-items: center;
   justify-content: space-between;
 }
-
-
 
 nav.scroll {
   background: var(--primary-color--);
@@ -224,7 +215,6 @@ body.menu-expanded button path {
   padding-inline: 2.4rem;
 }
 
-
 #home {
   padding-block: 0;
   padding-top: calc(
@@ -249,10 +239,20 @@ body.menu-expanded button path {
   margin-inline: auto;
 }
 
+#home h1 {
+  line-height: 150%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 3.4rem;
+  color: var(--headline--);
+  margin: 10.5rem 0px -2.5rem 0px;
+}
+
 #home p {
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
   color: var(--paragraph--);
   margin-bottom: 3.2rem;
 }
@@ -290,7 +290,7 @@ body.menu-expanded button path {
 }
 
 /*---------SERVICES--------------*/
-#services .bg{
+#services .bg {
   width: 100%;
   background-color: var(--brand-beige);
   height: 80rem;
@@ -315,6 +315,22 @@ body.menu-expanded button path {
   border-top: 3px solid var(--headline--);
 }
 
+#services .bg .cards .transparent2 h3 {
+  margin-block: 1.6rem;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+#services .bg .cards .transparent2 p {
+  color: var(--paragraph--);
+  font-family: 'roboto slamp', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
 #services .transparent {
   background: transparent;
   border: none;
@@ -333,6 +349,17 @@ body.menu-expanded button path {
 
 #services .card h3 {
   margin-block: 1.6rem;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+#services .card p {
+  color: var(--primary-color--);
+  font-family: 'roboto slamp', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
 }
 
 #services .bg .header_top .text_white {
@@ -346,10 +373,17 @@ body.menu-expanded button path {
 #services .bg .cards .transparent2 h3 {
   margin-block: 1.6rem;
   color: white;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.9rem;
 }
 
 #services .bg .cards .transparent2 p {
   color: var(--paragraph--);
+  font-family: 'roboto slamp', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
 }
 
 /*---------ABOUT--------------*/
@@ -375,21 +409,20 @@ body.menu-expanded button path {
   margin-bottom: 3.2rem;
 }
 
-#contact .phrases{
-
-}
-
-#contact .phrases .words{
-  font-size: 16px;
+#contact .phrases .words {
+  font-size: 1.5rem;
   color: var(--brand-beige);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
-#contact .phrases .people{
-  font-size: 12px;
+#contact .phrases .people {
+  font-size: 1.3rem;
   color: var(--paragraph--);
   margin-top: 1.2rem;
   margin-bottom: 4rem;
-
+  font-family: "Roboto Slab", sans-serif;
 }
 
 #contact ul {
@@ -403,18 +436,22 @@ body.menu-expanded button path {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 
-#contact ul li h2{
- margin-top: 2rem;
+#contact ul li h2 {
+  margin-top: 2rem;
 }
 
-#contact .button{
+#contact .button {
   background: #34af23;
   border: none;
   text-transform: uppercase;
   color: #fff;
   font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 6rem;
   padding: 1.6rem 3.2rem;
@@ -428,46 +465,52 @@ body.menu-expanded button path {
   transition: background 200ms;
 }
 
-#contact .button:hover{
+#contact .button:hover {
   background: var(--headline--);
 }
 
 #contact .form {
-  background: linear-gradient(-45deg, var(--bg-light), var(--green-flourescent),var(--brand-beige), var(--headline--));
-	background-size: 400% 400%;
-	animation: gradient 1s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    var(--bg-light),
+    var(--green-flourescent),
+    var(--brand-beige),
+    var(--headline--)
+  );
+  background-size: 400% 400%;
+  animation: gradient 1s ease infinite;
   height: 500px;
   border-radius: 40px;
   width: 70%;
   margin-left: 110px;
 }
 
-#contact .form .form_container{
+#contact .form .form_container {
   padding: 60px;
 }
 
-#contact .form .inputs{
-  padding: 15px ;
+#contact .form .inputs {
+  padding: 15px;
   text-align: center;
 }
 
-#contact .form .inputs .input_form{
- border-radius: 80px;
- width: 250px;
- height: 40px;
- padding: 10px;
- border: 1px solid var(--green-flourescent);
+#contact .form .inputs .input_form {
+  border-radius: 80px;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid var(--green-flourescent);
 }
 
-#contact .form .inputs .text_area{
+#contact .form .inputs .text_area {
   border-radius: 15px;
   width: 250px;
   height: 90px;
   padding: 10px;
   border: 1px solid var(--green-flourescent);
- }
+}
 
- #contact .form .inputs .button_form{
+#contact .form .inputs .button_form {
   border-radius: 70px;
   width: 250px;
   height: 50px;
@@ -476,13 +519,12 @@ body.menu-expanded button path {
   cursor: pointer;
   background: var(--green-flourescent);
   color: white;
- }
+}
 
- #contact .form .inputs .button_form:hover{
+#contact .form .inputs .button_form:hover {
   transition: 1s;
   background: var(--headline--);
-
- }
+}
 
 /*---------FOOTER--------------*/
 footer {
@@ -615,7 +657,9 @@ footer .social-links a:hover {
   }
   nav#navigation.scroll .wrapper .menu ul li a {
     color: var(--brand-light-2);
-    font-size: 20px;
+    font-size: 1.6rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
   }
 
   nav#navigation.scroll .menu a.button {
@@ -723,7 +767,16 @@ footer .social-links a:hover {
   #services h2 {
     width: 42rem;
     margin-inline: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
   }
+
+  #services h4 {
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+
 
   #services .cards {
     flex-direction: row;
@@ -759,6 +812,8 @@ footer .social-links a:hover {
 
   #contact h2 {
     width: 40.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
   }
 
   /*------------FOOTER-----------------*/
