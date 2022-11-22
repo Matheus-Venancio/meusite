@@ -564,7 +564,7 @@ body.menu-expanded button path {
 }
 
 #contact .phrases .words {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--brand-beige);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -572,10 +572,10 @@ body.menu-expanded button path {
 }
 
 #contact .phrases .people {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--paragraph--);
   margin-top: 1.2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   font-family: "Roboto Slab", sans-serif;
 }
 
@@ -698,11 +698,14 @@ footer p {
   color: white;
   line-height: 2;
   margin-bottom: 3.2rem;
+  font-family: 'poppins',sans-serif;
+  font-weight: 300;
 }
 
 footer .social-links {
   justify-content: flex-start;
   cursor: pointer;
+  font-weight: 400;
 }
 
 footer .social-links a:hover {
@@ -750,6 +753,7 @@ footer .social-links a:hover {
   section header h2 {
     font-size: 4rem;
     line-height: 5.2rem;
+    
   }
 
   .col-a {
@@ -908,8 +912,26 @@ footer .social-links a:hover {
     align-self: center;
   }
 
-  #about .content p {
-    margin-bottom: 0;
+  #about .col-a header h4{
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  #about .col-a header h2{
+    margin-inline: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  #about .col-a .content p {
+    font-size: 1.3rem;
+    line-height: 150%;
+    font-weight: 400;
+    font-family: "Roboto Slab", sans-serif;
+    color: var(--paragraph--);
+    margin-top: 3rem;
   }
 
   /*------------CONTACT-----------*/
@@ -919,7 +941,6 @@ footer .social-links a:hover {
   }
 
   #contact h2 {
-    width: 40.4rem;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
   }
