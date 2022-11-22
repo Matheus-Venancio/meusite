@@ -211,14 +211,38 @@ function App() {
 
           <div class="col-b">
 
-            <img src={require("./img/arbitro.jpeg")} alt="Informações" />
+            <div className='slidershow middle'>
+              <div className='slides'>
 
+                <input type='radio' name='r' id='r1' checked />
+                <input type='radio' name='r' id='r2' />
+                <input type='radio' name='r' id='r3' />
+
+                <div className='slide s1'>
+                  <img src={require("./img/arbitro2.png")} alt="Informações" />
+                </div>
+
+                <div className='slide'>
+                  <img src={require("./img/kaefi.jpg")} />
+                </div>
+
+                <div className='slide'>
+                <img  src={require("./img/kaefi.jpg")} />
+              </div>
+              </div>
+
+              <div className='navigation'>
+                <label for="r1" className='bar'></label>
+                <label for="r2" className='bar'></label>
+                <label for="r3" className='bar'></label>
+
+              </div>
+            </div>
           </div>
-
         </div>
       </section>
 
-      <section id="services">
+        <section id="services">
         <div class="wrapper">
           <header>
             <h4>Minhas</h4>
