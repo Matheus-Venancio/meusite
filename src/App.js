@@ -395,17 +395,26 @@ function App() {
           </header>
 
           <div class="container">
-            <input type="radio" name="slider" id='item-1' />
+            <input type="radio" name="slider" id='item-1' checked />
             <input type="radio" name="slider" id='item-2' />
             <input type="radio" name="slider" id='item-3' />
+            <input type="radio" name="slider" id='item-4' />
+            <input type="radio" name="slider" id='item-5' />
+
             <div className='cards'>
               <label className='card' for='item-1' id='song-1'>
                 <img src={require("./img/kaefi.jpg")} />
               </label>
-              <label className='card' for='item-2' id='song-1'>
+              <label className='card' for='item-2' id='song-2'>
                 <img src={require("./img/kaefi.jpg")} />
               </label>
-              <label className='card' for='item-3' id='song-1'>
+              <label className='card' for='item-3' id='song-3'>
+                <img src={require("./img/kaefi.jpg")} />
+              </label>
+              <label className='card' for='item-4' id='song-4'>
+                <img src={require("./img/kaefi.jpg")} />
+              </label>
+              <label className='card' for='item-5' id='song-5'>
                 <img src={require("./img/kaefi.jpg")} />
               </label>
             </div>
