@@ -227,8 +227,8 @@ function App() {
                 </div>
 
                 <div className='slide'>
-                <img  src={require("./img/kaefi.jpg")} />
-              </div>
+                  <img src={require("./img/kaefi.jpg")} />
+                </div>
               </div>
 
               <div className='navigation'>
@@ -242,7 +242,7 @@ function App() {
         </div>
       </section>
 
-        <section id="services">
+      <section id="services">
         <div class="wrapper">
           <header>
             <h4>Minhas</h4>
@@ -382,6 +382,32 @@ function App() {
                   expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
                   esse nobis soluta molestiae itaque!</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="wrapper">
+          <header>
+            <h4>Meus</h4>
+            <h2>Projetos</h2>
+          </header>
+
+          <div class="container">
+            <input type="radio" name="slider" id='item-1' />
+            <input type="radio" name="slider" id='item-2' />
+            <input type="radio" name="slider" id='item-3' />
+            <div className='cards'>
+              <label className='card' for='item-1' id='song-1'>
+                <img src={require("./img/kaefi.jpg")} />
+              </label>
+              <label className='card' for='item-2' id='song-1'>
+                <img src={require("./img/kaefi.jpg")} />
+              </label>
+              <label className='card' for='item-3' id='song-1'>
+                <img src={require("./img/kaefi.jpg")} />
+              </label>
             </div>
           </div>
         </div>
