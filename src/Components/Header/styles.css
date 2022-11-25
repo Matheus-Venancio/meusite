@@ -1,0 +1,61 @@
+@media (min-width: 1024px) {
+/*------------NAVIGATION-----------------*/
+  /*RESET*/
+  nav#navigation .wrapper * {
+    margin: 0;
+    padding: 0;
+    visibility: initial;
+    display: initial;
+    opacity: initial;
+    flex-direction: initial;
+    position: initial;
+    font-size: initial;
+    font-weight: initial;
+    transform: initial;
+    color: initial;
+    background-color: initial;
+    filter: initial;
+  }
+
+  nav#navigation .wrapper .logo {
+    width: 6rem;
+    margin-top: 2.5rem;
+  }
+
+  nav#navigation .close-menu,
+  nav#navigation .open-menu,
+  nav#navigation .social-links {
+    display: none;
+  }
+
+  nav#navigation .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  nav#navigation .menu ul:nth-child(1) {
+    gap: 2rem;
+    display: flex;
+  }
+
+  nav#navigation.scroll .wrapper .menu ul li {
+    padding: 0px 5px;
+    margin-left: 5rem;
+  }
+  nav#navigation.scroll .wrapper .menu ul li a {
+    color: var(--brand-light-2);
+    font-size: 1.6rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    transition: opacity 0.4s;
+  }
+
+  nav#navigation.scroll .wrapper .menu ul li a:hover {
+    transition: 1.5s;
+    color: var(--headline--);
+  }
+
+
+}
