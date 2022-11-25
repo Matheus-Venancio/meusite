@@ -2,6 +2,9 @@
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faMicrochip, faWifi, faBook, faDumbbell, faFutbol, faHammer, faMicrophone, faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
+import 'keen-slider/keen-slider.min.css'
+import KeenSlider from 'keen-slider'
+import Slider from './Components/Slider';
 
 function App() {
   return (
@@ -393,7 +396,8 @@ function App() {
             <h4>Meus</h4>
             <h2>Projetos</h2>
           </header>
-
+          <Slider />
+          {/** 
           <div class="container">
             <input type="radio" name="slider" id='item-1' checked />
             <input type="radio" name="slider" id='item-2' />
@@ -419,9 +423,10 @@ function App() {
               </label>
             </div>
           </div>
+      */}
         </div>
       </section>
-
+     
       <section id="contact">
         <div class="wrapper">
 
