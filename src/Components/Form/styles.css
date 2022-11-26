@@ -1,0 +1,57 @@
+
+#contact .form {
+    background: linear-gradient(
+      -45deg,
+      var(--bg-light),
+      var(--green-flourescent),
+      var(--brand-beige),
+      var(--headline--)
+    );
+    background-size: 400% 400%;
+    animation: gradient 1s ease infinite;
+    height: 500px;
+    border-radius: 40px;
+    width: 70%;
+    margin-left: 110px;
+  }
+  
+  #contact .form .form_container {
+    padding: 60px;
+  }
+  
+  #contact .form .inputs {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #contact .form .inputs .input_form {
+    border-radius: 80px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid var(--green-flourescent);
+  }
+  
+  #contact .form .inputs .text_area {
+    border-radius: 15px;
+    width: 250px;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid var(--green-flourescent);
+  }
+  
+  #contact .form .inputs .button_form {
+    border-radius: 70px;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background: var(--green-flourescent);
+    color: white;
+  }
+  
+  #contact .form .inputs .button_form:hover {
+    transition: 1s;
+    background: var(--headline--);
+  }
