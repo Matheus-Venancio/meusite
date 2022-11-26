@@ -1,0 +1,27 @@
+/*---------PROJECTS--------------*/
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color--);
+    transition: background 0.4s ease-in;
+  }
+  
+  #projects header{
+   color: #fff;
+   margin-top: -3rem;
+  }
+  
+  #projects header h2 {
+    margin-bottom: 6rem;
+    width: 42rem;
+    margin-inline: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  #projects header h4 {
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }

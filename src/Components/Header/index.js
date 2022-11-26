@@ -16,8 +16,10 @@ export default function Header() {
                     <ul>
                         <li><a class="active" onclick="closeMenu()" href="#home">Início</a></li>
                         <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
-                        <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
-                        <li><a onclick="closeMenu()" href="#">Depoimentos</a></li>
+                        <li><a onclick="closeMenu()" href="#services">Skills</a></li>
+                        <li><a onclick="closeMenu()" href="#">Projetos</a></li>
+                        <li><a onclick="closeMenu()" href="#">Contato</a></li>
+
                     </ul>
 
                     <ul class="social-links">

@@ -8,6 +8,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Carrousel from './Components/Carrousel';
 import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -15,103 +17,10 @@ function App() {
     <div className="App">
 
       <Header />
-      
-       <Home />
 
-      <section id="services">
-        <div class="wrapper">
-          <header>
-            <h4>Serviços</h4>
-            <h2>O que gosto de fazer</h2>
-          </header>
+      <Home />
 
-          <div class="cards">
-            <div class="card">
-
-              <FontAwesomeIcon icon={faBook} />
-
-              <h3>Estudar</h3>
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
-                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
-                esse nobis soluta molestiae itaque!</p>
-            </div>
-
-            <div class="card">
-              <FontAwesomeIcon icon={faDumbbell} />
-
-              <h3>Academia</h3>
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
-                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
-                esse nobis soluta molestiae itaque!</p>
-            </div>
-
-            <div class="card">
-              <FontAwesomeIcon icon={faFutbol} />
-
-              <h3>Construir</h3>
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
-                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
-                esse nobis soluta molestiae itaque!</p>
-            </div>
-
-            <div class="card">
-              <FontAwesomeIcon icon={faHammer} />
-
-              <h3>Futebol</h3>
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
-                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
-                esse nobis soluta molestiae itaque!</p>
-            </div>
-
-            <div class="card">
-              <FontAwesomeIcon icon={faMicrophone} />
-
-              <h3>Comunicação</h3>
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
-                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
-                esse nobis soluta molestiae itaque!</p>
-            </div>
-
-            <div class="card">
-              <FontAwesomeIcon icon={faScaleBalanced} />
-
-              <h3>Leis</h3>
-
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorum nemo tenetur asperiores
-                expedita ipsam ducimus, nam a pariatur. Minus accusamus earum consectetur praesentium facere
-                esse nobis soluta molestiae itaque!</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about">
-        <div class="wrapper">
-
-          <div class="col-a">
-            <header>
-              <h4>Quem é</h4>
-              <h2>Matheus Venâncio Cordeiro</h2>
-            </header>
-
-            <div class="content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis neque exercitationem dolorum
-                perferendis eaque? Dolor sit voluptate repellat, dignissimos nam dolorem ipsum, magnam ducimus
-                voluptatem, mollitia excepturi explicabo odio eius.
-              </p>
-
-
-            </div>
-          </div>
-          <Carrousel />
-        </div>
-      </section>
+      <About />
 
       <section id="services">
         <div class="wrapper">
@@ -258,16 +167,7 @@ function App() {
         </div>
       </section>
 
-
-      <section id="projects">
-        <div class="wrapper">
-          <header>
-            <h4>Meus</h4>
-            <h2>Projetos</h2>
-          </header>
-          <Slider />
-        </div>
-      </section>
+      <Projects />
 
       <section id="contact">
         <div class="wrapper">
