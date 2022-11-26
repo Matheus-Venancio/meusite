@@ -1,11 +1,13 @@
 
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDatabase, faMicrochip, faWifi, faBook, faDumbbell, faFutbol, faHammer, faMicrophone, faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faDumbbell, faFutbol, faHammer, faMicrophone, faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
 import 'keen-slider/keen-slider.min.css';
 import Slider from './Components/Slider';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Carrousel from './Components/Carrousel';
+import Home from './pages/Home';
 
 
 function App() {
@@ -13,48 +15,8 @@ function App() {
     <div className="App">
 
       <Header />
-      <section id="home">
-
-        <div class="wrapper">
-          <div class="col-a">
-            <header>
-              <h1>Assistencia medica simplificada para todos</h1>
-            </header>
-
-            <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ullam culpa quas quasi nulla, animi
-                eum veritatis pariatur illo laboriosam ad possimus similique facilis facere minus at, architecto
-                magnam ea.</p>
-            </div>
-
-            <div class="botao">
-              <button>Conheça</button>
-            </div>
-          </div>
-
-
-          <div class="col-b">
-            <img className="photo" src={require("./img/teste.png")} />
-          </div>
-
-          <div class="stats">
-
-            <div class="stat">
-              <FontAwesomeIcon icon={faMicrochip} className="icon_card" />
-            </div>
-            <div class="stat">
-              <FontAwesomeIcon icon={faCode} className="icon_card" />
-            </div>
-            <div class="stat">
-              <FontAwesomeIcon icon={faWifi} className="icon_card" />
-            </div>
-            <div class="stat">
-              <FontAwesomeIcon icon={faDatabase} className="icon_card" />
-            </div>
-          </div>
-
-        </div>
-      </section>
+      
+       <Home />
 
       <section id="services">
         <div class="wrapper">
@@ -133,8 +95,8 @@ function App() {
 
           <div class="col-a">
             <header>
-              <h4>Sobre nos</h4>
-              <h2>Entenda quem somos e por que existimos</h2>
+              <h4>Quem é</h4>
+              <h2>Matheus Venâncio Cordeiro</h2>
             </header>
 
             <div class="content">
@@ -147,38 +109,7 @@ function App() {
 
             </div>
           </div>
-
-
-          <div class="col-b">
-
-            <div className='slidershow middle'>
-              <div className='slides'>
-
-                <input type='radio' name='r' id='r1' checked />
-                <input type='radio' name='r' id='r2' />
-                <input type='radio' name='r' id='r3' />
-
-                <div className='slide s1'>
-                  <img src={require("./img/arbitro2.png")} alt="Informações" />
-                </div>
-
-                <div className='slide'>
-                  <img src={require("./img/kaefi.jpg")} />
-                </div>
-
-                <div className='slide'>
-                  <img src={require("./img/kaefi.jpg")} />
-                </div>
-              </div>
-
-              <div className='navigation'>
-                <label for="r1" className='bar'></label>
-                <label for="r2" className='bar'></label>
-                <label for="r3" className='bar'></label>
-
-              </div>
-            </div>
-          </div>
+          <Carrousel />
         </div>
       </section>
 
