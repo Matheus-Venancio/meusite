@@ -1,61 +1,36 @@
 @media (min-width: 1024px) {
-/*------------NAVIGATION-----------------*/
-  /*RESET*/
-  nav#navigation .wrapper * {
-    margin: 0;
-    padding: 0;
-    visibility: initial;
-    display: initial;
-    opacity: initial;
-    flex-direction: initial;
-    position: initial;
-    font-size: initial;
-    font-weight: initial;
-    transform: initial;
-    color: initial;
-    background-color: initial;
-    filter: initial;
+  #navigation {
+    width: 290px;
+    height: 52px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
   }
 
-  nav#navigation .wrapper .logo {
-    width: 6rem;
-    margin-top: 2.5rem;
-  }
-
-  nav#navigation .close-menu,
-  nav#navigation .open-menu,
-  nav#navigation .social-links {
-    display: none;
-  }
-
-  nav#navigation .menu {
+  ul {
+    list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 60%;
+    gap: 27px;
   }
 
-  nav#navigation .menu ul:nth-child(1) {
-    gap: 2rem;
+  #navigation a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
     display: flex;
+    transition: all ease-in-out 0.3s;
+    font-size: 1.1rem;
   }
-
-  nav#navigation.scroll .wrapper .menu ul li {
-    padding: 0px 5px;
-    margin-left: 5rem;
-  }
-  nav#navigation.scroll .wrapper .menu ul li a {
-    color: var(--brand-light-2);
-    font-size: 1.6rem;
-    font-family: "poppins", sans-serif;
-    font-weight: 800;
-    transition: opacity 0.4s;
-  }
-
-  nav#navigation.scroll .wrapper .menu ul li a:hover {
-    transition: 1.5s;
-    color: var(--headline--);
-  }
-
-
 }
