@@ -4,6 +4,7 @@
     4.1rem + var(--nav-height)
   ); /**Ele permite  fazer  soma dos dois**/
   background: var(--primary-color--);
+  height: 65.8rem;
 }
 
 #home::before {

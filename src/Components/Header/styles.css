@@ -1,7 +1,7 @@
-@media (min-width: 1024px) {
+
   #navigation {
     width: 290px;
-    height: 52px;
+    height: 62px;
     justify-content: center;
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
@@ -10,6 +10,7 @@
     z-index: 2;
     position: fixed;
     left: 50%;
+    top: 87%;
     transform: translate(-50%);
     bottom: 2rem;
     display: flex;
@@ -27,11 +28,19 @@
 
   #navigation a {
     background: transparent;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 50%;
     display: flex;
     transition: all ease-in-out 0.3s;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-decoration: none;
+    color: #fff;
+    cursor: pointer;
   }
-}
+
+  #navigation a:hover {  
+    font-size: 1.6rem;
+    font-family: 'poppins',sans-serif;
+    color: var(--green-flourescent);
+  }
+
