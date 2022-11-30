@@ -2,7 +2,7 @@ import React from "react"
 
 import './styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBrain, faCode, faCoffee, faHouse, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBrain, faCode,faHouse, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
 
