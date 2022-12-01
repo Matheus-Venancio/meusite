@@ -10,9 +10,9 @@
   }
   
   .rainbow {
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
+    width: 21rem;
+    height: 17rem;
+    border-radius: 50px;
     padding: 2rem;
     margin: auto;
    
@@ -35,6 +35,10 @@
       )
       2 stretch;
     background: #000;
+  }
+
+  .logo_mv{
+    width: 100px;
   }
   
   /** show a warning in browers that don't support it **/
