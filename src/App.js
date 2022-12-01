@@ -1,7 +1,5 @@
 
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faDumbbell, faFutbol, faHammer, faMicrophone, faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
 import 'keen-slider/keen-slider.min.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -10,7 +8,6 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
-
 
 function App() {
   return (

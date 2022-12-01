@@ -8,7 +8,7 @@ export default function Skills() {
     return (
         <section id="home">
             <div class="rainbow">
-            <img className="logo_mv" src={require("../../img/logo.png")} />
+            <img className="logo_mv" src={require("../../img/skills/html.png")} />
             </div>
 
             <div class="warning">

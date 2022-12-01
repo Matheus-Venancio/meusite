@@ -10,9 +10,7 @@ export default function Footer() {
         <div class="wrapper">
 
           <div class="col-a">
-            <a href="#" class="logo_footer" id="#home">
-              <img src={require("../../img/logo.png")} />
-            </a>
+            
 
             <p>
               &copy;2022 DoctorCare.
