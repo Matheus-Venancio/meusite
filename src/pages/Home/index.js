@@ -10,15 +10,19 @@ export default function Home() {
       <BackgroundHome />
       <div class="wrapper">
         <div class="col-a">
-          <p>Olá, eu sou</p>
-          <h1>Matheus Venancio</h1>
-          <h3>Full-Stack Developer</h3>
-          <button class="botao">Conheça</button>
+          <h2>Olá, eu sou</h2>
+          <h1>Matheus Venâncio</h1>
+          <h3 class="line-1 anim-typewriter">Full-Stack Developer</h3>
+          <p>
+            Me chamo Matheus Venâncio Cordeiro, mas pode me chamar de Venâncio, tenho 19 anos e sou apaixonado por tecnologias, livros e esportes</p>
+          <button class="botao">Sobre mim</button>
         </div>
 
 
         <div class="col-b">
-          <img className="photo" src={require("../../img/player.gif")} />
+          <div className="animationPhoto">
+            <img className="photo" src={require("../../img/player.gif")} />
+          </div>
         </div>
 
       </div>
