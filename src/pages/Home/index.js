@@ -10,6 +10,9 @@ export default function Home() {
       <BackgroundHome />
       <div class="wrapper">
         <div class="col-a">
+          <div className="loader">
+            
+          </div>
           <h2>Olá, eu sou</h2>
           <h1>Matheus Venâncio</h1>
           <h3 class="line-1 anim-typewriter">Full-Stack Developer</h3>
