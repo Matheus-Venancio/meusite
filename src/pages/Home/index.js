@@ -7,8 +7,9 @@ export default function Home() {
 
   return (
     <section id="home">
-      <BackgroundHome />
+    
       <div class="wrapper">
+      <BackgroundHome />
         <div class="col-a">
           <div className="loader">
             
