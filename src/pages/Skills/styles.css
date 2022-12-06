@@ -1,91 +1,15 @@
-:root {
-    --angle: 45deg;
-    --opacity: 0.5;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  .rainbow {
-    width: 21rem;
-    height: 17rem;
-    border-radius: 50px;
-    padding: 2rem;
-    margin: auto;
-   
-    display: grid;
-    place-content: center;
-    text-align: center;
-  
-    font-size: 1.5em;
-  
-    --border-size: 0.3rem;
-    border: 0.7rem solid transparent;
-  
-    /* Paint an image in the border */
-    border-image: conic-gradient(
-        from var(--angle),
-        #ff0066 0deg 90deg,
-        #030303 90deg 180deg,
-        #39ff14 180deg 270deg,
-        #030303 90deg 180deg
-      )
-      2 stretch;
-    background: #000;
-  }
+#skills{
+background: #000;
+}
 
-  .logo_mv{
-    width: 100px;
-  }
-  
-  /** show a warning in browers that don't support it **/
-  .warning {
-    margin: 2em;
-    padding: 1em;
-    border: 1px solid #ccc;
-  }
-  .warning p {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  /* Animate when Houdini is available */
-  @supports (background: paint(houdini)) {
-    @property --opacity {
-      syntax: "<number>";
-      initial-value: 0.5;
-      inherits: false;
-    }
-  
-    @property --angle {
-      syntax: "<angle>";
-      initial-value: 0deg;
-      inherits: false;
-    }
-  
-    @keyframes opacityChange {
-      to {
-        --opacity: 1;
-      }
-    }
-  
-    @keyframes rotate {
-      to {
-        --angle: 360deg;
-      }
-    }
-  
-    .rainbow {
-      animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
-    }
-  
-    /* Hide the warning */
-    .warning {
-      display: none;
-    }
-  }
+#skills .container{
+  width: 100%;
+
+  color: aliceblue;
+}
+
+#skills .container .box-grid{
+  padding: 2px 16px;
+}
   
   

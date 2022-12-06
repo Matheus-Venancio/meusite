@@ -6,7 +6,7 @@ import './styles.css';
 export default function Skills() {
 
     return (
-        <section id="home">
+        <section id="skills">
             <div className="container">
                 <div className="box-grid">
                     <h2>Front-end delevoper</h2>
