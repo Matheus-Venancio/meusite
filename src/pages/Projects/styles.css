@@ -42,3 +42,32 @@
   width: 30rem;
   height: 16rem;
 }
+
+.keen-slider__slide .content-keen h3 {
+  font-size: 2.9rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+}
+
+.keen-slider__slide .content-keen p {
+  font-size: 1.8rem;
+  font-family: "poppins", sans-serif;
+  color: #94a3b8;
+
+  text-align: center;
+  font-weight: 300;
+  margin: 3rem 0rem;
+}
+
+
+.keen-slider__slide .content-keen Button {
+  border-radius: 10rem;
+  border: none;
+  padding: 1.5rem 2rem;
+}
+
+.keen-slider__slide .content-keen .button-left {
+  margin-left: 5rem;
+}
+
+

@@ -185,3 +185,15 @@ to{border-right-color: transparent;}
     width: 69rem;
   }
 }
+
+
+@media (min-width: 1000px) {
+  #home {
+    height: 95.8rem;
+  }
+  #home .col-b img {
+    margin-top: 4rem;
+    width: 29rem;
+  }
+}
+
