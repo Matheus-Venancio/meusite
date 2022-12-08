@@ -3,12 +3,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--primary-color--);
+    background: #fff;
     transition: background 0.4s ease-in;
   }
   
   #projects header{
-   color: #fff;
+   color: #000;
    margin-top: -3rem;
   }
   
