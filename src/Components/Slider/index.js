@@ -22,31 +22,19 @@ export default function Slider() {
 
     <div ref={sliderRef} className="keen-slider">
       <div className="keen-slider__slide number-slide1">
-        <div className="img-slider">
-          <img className="photo" src={require("../../img/projectsimg/doctorcare.PNG")} />
-        </div>
+        <img className="photo" src={require("../../img/projectsimg/doctorcare.PNG")} />
       </div>
+
       <div className="keen-slider__slide number-slide2">
-        <div className="img-slider">
-          <img className="photo" src={require("../../img/projectsimg/doctorcare.PNG")} />
-        </div>
+        <img className="photo" src={require("../../img/projectsimg/card.PNG")} />
       </div>
       <div className="keen-slider__slide number-slide3">
-        <div className="img-slider">
-          <img className="photo" src={require("../../img/projectsimg/card.PNG")} />
-        </div>
+        <img className="photo" src={require("../../img/projectsimg/softfloor.PNG")} />
       </div>
       <div className="keen-slider__slide number-slide4">
-        <div className="img-slider">
-          <img className="photo" src={require("../../img/projectsimg/softfloor.PNG")} />
-        </div>
+        <img className="photo" src={require("../../img/projectsimg/financas.PNG")} />
       </div>
       <div className="keen-slider__slide number-slide5">
-        <div className="img-slider">
-          <img className="photo" src={require("../../img/projectsimg/financas.PNG")} />
-        </div>
-      </div>
-      <div className="keen-slider__slide number-slide6">
         <div className="content-keen">
           <h3>Mais em breve...</h3>
           <p>Me acompanhe para saber mais</p>
