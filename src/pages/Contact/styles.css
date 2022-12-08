@@ -80,3 +80,25 @@
     font-weight: 600;
   }
   }
+
+  @media (max-width: 1000px) {
+    #contact .col-a {
+      text-align: center;
+    }
+
+    #contact .col-a .button {
+    top: 0%;
+    margin-left: 35rem;
+    margin-top: 5rem;
+    }
+   }
+
+   
+  @media (max-width: 800px) {
+    
+    #contact .col-a .button {
+    top: 0%;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    }
+   }

@@ -84,22 +84,21 @@
 
 #about .content p {
   margin-top: 2.4rem;
-
 }
 
 #about .content button {
- color: #fff;
- background: var(--headline--);
- border-style: none;
- width: 18rem;
- border-radius: 3rem;
- height: 5rem;
- cursor: pointer;
- font-size: 1.7rem;
- text-transform: uppercase;
- font-family: 'poppins', sans-serif;
- font-weight: 600;
- transition: 1s;
+  color: #fff;
+  background: var(--headline--);
+  border-style: none;
+  width: 18rem;
+  border-radius: 3rem;
+  height: 5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  transition: 1s;
 }
 
 #about .content button:hover {
@@ -108,9 +107,7 @@
   border-radius: 3rem;
   height: 5.5rem;
   font-size: 1.9rem;
-
-
- }
+}
 
 #about .video {
   position: relative;
@@ -160,5 +157,45 @@
     font-family: "Roboto Slab", sans-serif;
     color: var(--paragraph--);
     margin-top: 3rem;
+  }
+}
+
+@media (max-width: 1011px) {
+  #about {
+    height: 95.8rem;
+
+  }
+
+  #about .col-a {
+    padding: 10rem 0rem;
+    text-align: center;
+  }
+
+  #about .content button {
+    margin-top: 3rem;
+  }
+
+
+  #about .video {
+    width: 100%;
+  
+    margin-top: 2rem;
+  }
+
+  #about .video iframe {
+    width: 60rem;
+    top: 0;
+    left: 20%;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 800px) {
+ 
+
+  #about .video iframe {
+    width: 40rem;
+    height: 30rem;
+    left: 10%;
   }
 }

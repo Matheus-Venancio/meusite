@@ -76,3 +76,71 @@
     rgba(174, 63, 255, 1) 100%
   );
 }
+
+
+.keen-slider {
+  width: 100%;
+}
+
+.keen-slider__slide {
+  cursor: pointer;
+  max-width: 36.125rem;
+  min-width: 36.125rem;
+  height: 42rem;
+  border-radius: 8px;
+}
+
+.keen-slider__slide .photo {
+  width: 30rem;
+  height: 16rem;
+}
+
+.keen-slider__slide .content-keen h3 {
+  font-size: 2.9rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+}
+
+.keen-slider__slide .content-keen p {
+  font-size: 1.8rem;
+  font-family: "poppins", sans-serif;
+  color: #94a3b8;
+
+  text-align: center;
+  font-weight: 300;
+  margin: 3rem 0rem;
+}
+
+
+.keen-slider__slide .content-keen Button {
+  border-radius: 10rem;
+  border: none;
+  padding: 1.5rem 2rem;
+}
+
+.keen-slider__slide .content-keen .button-left {
+  margin-left: 5rem;
+}
+
+@media (max-width: 950px) {
+  .keen-slider__slide {
+
+    height: 30rem;
+
+  }
+
+  .keen-slider__slide .photo {
+    width: 20rem;
+    height: 12rem;
+  }
+
+ }
+
+ @media (max-width: 600px) {
+  .keen-slider__slide .photo {
+    width: 14rem;
+    height: 7.6rem;
+  }
+
+ }
+

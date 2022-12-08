@@ -1,6 +1,4 @@
-.back {
-  background: #000;
-}
+
 .container {
   width: 100%;
   display: flex;
@@ -59,4 +57,32 @@
 
 .box-grid .box .content .green {
   color: var(--green-flourescent);
+}
+
+@media (max-width: 628px) {
+ #skills{
+ height: 189rem;
+ }
+
+.box-grid {
+  width: 39rem;
+  height: 41rem;
+}
+
+
+.box-grid .box {
+  width: 100%;
+  display: flex;
+}
+
+.box-grid .box .content {
+  width: 100%;
+  margin-top: -2.6rem;
+  padding: 0rem 3rem;
+}
+
+.box-grid .box .content h3 {
+  font-size: 1.5rem;
+}
+
 }

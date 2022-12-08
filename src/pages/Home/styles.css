@@ -182,18 +182,30 @@ to{border-right-color: transparent;}
   }
 
   #home .col-b img {
-    width: 69rem;
+    width: 57rem;
   }
 }
 
 
-@media (min-width: 1000px) {
+@media (max-width: 1011px) {
   #home {
     height: 95.8rem;
   }
   #home .col-b img {
     margin-top: 4rem;
     width: 29rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #home .animationPhoto {
+   
+    width: 20.4rem;
+  
+  }
+
+  #home .col-b img {
+    width: 27rem;
   }
 }
 
