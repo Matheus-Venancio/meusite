@@ -7,10 +7,29 @@
   margin: auto;
 }
 
+#skills header {
+  color: #fff;
+  margin-top: -3rem;
+}
+
+#skills header h2 {
+  margin-bottom: 6rem;
+  width: 42rem;
+  margin-inline: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+#skills header h4 {
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
 .box-grid {
   background-color: #fff;
-  width: 59rem;
-  height: 41rem;
+  width: 58rem;
+  height: 37rem;
   border-radius: 12px;
   gap: 30px;
   align-items: center;

@@ -7,7 +7,12 @@ export default function Skills() {
 
     return (
         <section id="skills">
+              <header>
+                    <h4>Minhas</h4>
+                    <h2>Skills</h2>
+                </header>
             <div className="container">
+          
                 <div className="box-grid">
                     <h2>Front-end delevoper</h2>
                     <div className="box">
