@@ -2,6 +2,8 @@
 /*---------CONTACT--------------*/
 #contact {
     text-align: left;
+    background: #1b1e23;
+
   }
   
   #contact header {
@@ -29,6 +31,7 @@
     flex-direction: column;
     gap: 1.6rem;
     margin-bottom: 3.2rem;
+   
   }
   
   #contact ul li {
@@ -38,10 +41,12 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
+    margin-left: -26rem;
   }
   
   #contact ul li h2 {
     margin-top: 2rem;
+    margin-left: -10rem;
   }
   
   #contact .button {

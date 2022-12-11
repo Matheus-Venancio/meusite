@@ -29,6 +29,7 @@ export default function Contact() {
 
               <ul>
                 <li><h2>Outros meios:</h2></li>
+              
                 <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path
