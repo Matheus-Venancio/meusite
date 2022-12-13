@@ -23,6 +23,23 @@ export default function Slider() {
     <div ref={sliderRef} className="keen-slider">
       <div className="keen-slider__slide number-slide1">
         <img className="photo" src={require("../../img/projectsimg/doctorcare.PNG")} />
+        
+        <div class="image__overlay image__overlay--primary">
+      
+          <div class="image__title">Doctorcare</div>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <p class="image__description">
+            Desenvolvi um site exemplo para uma assistencia medica usando html, css e javascript
+            Clique para ir até o repositorio.
+          </p>
+          </a>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <p class="image__description">
+            Clique para ir até o repositorio.
+          </p>
+          </a>
+          
+        </div>
       </div>
 
       <div className="keen-slider__slide number-slide2">
@@ -33,6 +50,7 @@ export default function Slider() {
       </div>
       <div className="keen-slider__slide number-slide4">
         <img className="photo" src={require("../../img/projectsimg/financas.PNG")} />
+
       </div>
       <div className="keen-slider__slide number-slide5">
         <div className="content-keen">
