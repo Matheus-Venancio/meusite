@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <section id="home">
-    <BackgroundHome />
+   {/** <BackgroundHome />*/} 
       <div class="wrapper">
       
         <div class="col-a">

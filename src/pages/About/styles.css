@@ -3,88 +3,9 @@
   text-align: left;
   background-color: #fff;
 }
-#about header h2 {
-  margin-bottom: 2.4rem;
-}
 
-#about .col-b .slidershow {
-  width: 40rem;
-  height: 50rem;
-  overflow: hidden;
-}
 
-#about .col-b .middle {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-#about .col-b .slidershow .slides {
-  width: 500%;
-  height: 100%;
-  display: flex;
-}
-
-#about .col-b .slidershow .slides input[name="r"] {
-  position: absolute;
-  visibility: hidden;
-}
-
-#about .col-b .slidershow .slides #r1:checked ~ .s1 {
-  margin-left: 0;
-}
-
-#about .col-b .slidershow .slides #r2:checked ~ .s1 {
-  margin-left: -20%;
-}
-
-#about .col-b .slidershow .slides #r3:checked ~ .s1 {
-  margin-left: -40%;
-}
-
-#about .col-b .slidershow .slides #r4:checked ~ .s1 {
-  margin-left: -60%;
-}
-
-#about .col-b .slidershow .slides #r5:checked ~ .s1 {
-  margin-left: -80%;
-}
-
-#about .col-b .slidershow .slides .slide {
-  width: 20%;
-  transition: 0.6s;
-}
-
-#about .col-b .slidershow .slides .slide img {
-  width: 100%;
-  height: 100%;
-}
-
-#about .col-b .slidershow .navigation {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
-#about .col-b .slidershow .navigation .bar {
-  width: 5rem;
-  height: 1rem;
-  border: 0.2rem solid #fff;
-  margin: 0.6rem;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-#about .col-b .slidershow .navigation .bar:hover {
-  background: #fff;
-}
-
-#about .content p {
-  margin-top: 2.4rem;
-}
 
 #about .content button {
   color: #fff;
@@ -99,6 +20,7 @@
   font-family: "poppins", sans-serif;
   font-weight: 600;
   transition: 1s;
+  margin-top: 2rem;
 }
 
 #about .content button:hover {

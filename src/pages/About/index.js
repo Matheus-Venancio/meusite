@@ -1,7 +1,5 @@
 import React from "react"
 import './styles.css';
-import Carrousel from "../../Components/Carrousel";
-
 export default function About() {
 
 
