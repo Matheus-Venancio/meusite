@@ -124,6 +124,12 @@
 	justify-content: center;
 	opacity: 0;
 	transition: opacity 0.25s;
+  text-align: center;
+}
+
+.image__overlay p{
+ font-size: 1.7rem;
+ margin-left: 2.7rem;
 }
 
 .image__overlay--blur {

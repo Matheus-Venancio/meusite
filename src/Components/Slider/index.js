@@ -23,33 +23,84 @@ export default function Slider() {
     <div ref={sliderRef} className="keen-slider">
       <div className="keen-slider__slide number-slide1">
         <img className="photo" src={require("../../img/projectsimg/doctorcare.PNG")} />
-        
+
         <div class="image__overlay image__overlay--primary">
-      
+
           <div class="image__title">Doctorcare</div>
           <a href="https://github.com/Matheus-Venancio/Doctorcare">
-          <p class="image__description">
-            Desenvolvi um site exemplo para uma assistencia medica usando html, css e javascript
-            Clique para ir até o repositorio.
-          </p>
+            <p class="image__description">
+              Desenvolvi um site exemplo para uma assistencia medica usando html, css e javascript
+              Clique para ir até o repositorio.
+            </p>
           </a>
           <a href="https://github.com/Matheus-Venancio/Doctorcare">
-          <p class="image__description">
-            Clique para ir até o repositorio.
-          </p>
+            <p class="image__description">
+              Clique para ir até o repositorio.
+            </p>
           </a>
-          
+
         </div>
       </div>
 
       <div className="keen-slider__slide number-slide2">
         <img className="photo" src={require("../../img/projectsimg/card.PNG")} />
+
+        <div class="image__overlay image__overlay--primary">
+
+          <div class="image__title">Card</div>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+            <p class="image__description">
+              Esse projeto consegue identificar a bandeira de seu cartão apenas com alguns numeros informados,
+              assim você tem a facilidade na hora de prencher os dados.
+            </p>
+          </a>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+            <p class="image__description">
+              Clique para ir até o repositorio.
+            </p>
+          </a>
+
+        </div>
       </div>
       <div className="keen-slider__slide number-slide3">
         <img className="photo" src={require("../../img/projectsimg/softfloor.PNG")} />
+
+        <div class="image__overlay image__overlay--primary">
+
+          <div class="image__title">Soft floor</div>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+            <p class="image__description">
+              A empresa Softfloor entrou em contato comigo para desenvolver um site de aprensentação deles.
+              Desenvolvi com HTML, CSS e JS.
+            </p>
+          </a>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+            <p class="image__description">
+              Clique para ir até o repositorio.
+            </p>
+          </a>
+
+        </div>
       </div>
       <div className="keen-slider__slide number-slide4">
         <img className="photo" src={require("../../img/projectsimg/financas.PNG")} />
+
+        <div class="image__overlay image__overlay--primary">
+
+          <div class="image__title">Sistema Finanças</div>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+            <p class="image__description">
+              Desenvolvi um sistema de controle financeiro que você consegue ver aonde gastou mais e ter 
+              o controle sobre isso.
+            </p>
+          </a>
+          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+            <p class="image__description">
+              Clique para ir até o repositorio.
+            </p>
+          </a>
+
+        </div>
 
       </div>
       <div className="keen-slider__slide number-slide5">
