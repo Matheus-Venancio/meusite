@@ -13,7 +13,7 @@ export default function Footer() {
             
 
             <p>
-              &copy;2022 DoctorCare.
+              &copy;2022 Matheus Venâncio Cordeiro.
               Todos os direitos reservados.
             </p>
           </div>

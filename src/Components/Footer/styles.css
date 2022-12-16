@@ -1,16 +1,9 @@
 
 /*---------FOOTER--------------*/
 footer {
-    background-color: var(--primary-color--);
-    padding-block: 6rem;
+    background-color: var(--headline--);
     text-align: left;
     color: white;
-  }
-  
-  footer .logo_footer {
-    display: inline-block;
-    margin-bottom: 2.4rem;
-    width: 140px;
   }
   
   footer p {
@@ -21,6 +14,9 @@ footer {
     font-weight: 300;
   }
   
+  footer .col-b{
+margin-left: -6rem;
+  }
   footer .social-links {
     justify-content: flex-start;
     cursor: pointer;
@@ -48,7 +44,7 @@ footer {
     align-self: center;
   }
 
-  footer .col-b {
+  footer .wrapper .col-b {
     align-self: center;
     justify-self: flex-end;
   }

@@ -3,7 +3,7 @@
     position: relative;
     width: 100%;
     margin-right: -4rem;
-    z-index: 100;
+    z-index: 10;
   
   }
   
@@ -22,16 +22,16 @@
   
   
   .wave-1{
-    animation: moveWave1 1s ease-in-out infinite alternate;
+    animation: moveWave1 0.8s ease-in-out infinite alternate;
 
   }
   
   .wave-2{
-    animation: moveWave2 1s 1.2s ease-in-out infinite alternate;
+    animation: moveWave2 0.8s 1.2s ease-in-out infinite alternate;
   }
   
   .wave-3{
-    animation: moveWave3 1s 0.7s ease-in-out infinite alternate;
+    animation: moveWave3 0.8s 0.7s ease-in-out infinite alternate;
   }
   @keyframes moveWave1{
     from{
