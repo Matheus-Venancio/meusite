@@ -1,17 +1,8 @@
-.config-waves{
-  position: relative;
-}
 
-.waves{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 /*---------CONTACT--------------*/
 #contact {
     text-align: left;
-    background: #1b1e23;
+    background: var(--headline--);
 
   }
   

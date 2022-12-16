@@ -1,0 +1,52 @@
+
+.config-waves{
+    position: relative;
+    width: 100%;
+    margin-right: -4rem;
+    z-index: 100;
+  
+  }
+  
+  .config-waves {
+  
+    width: 100%;
+  }
+  
+  .waves{
+    position: absolute;
+    bottom: 6rem;
+    left: 0;
+    right: 0;
+  
+  }
+  
+  
+  .wave-1{
+    animation: moveWave1 1s ease-in-out infinite alternate;
+
+  }
+  
+  .wave-2{
+    animation: moveWave2 1s 1.2s ease-in-out infinite alternate;
+  }
+  
+  .wave-3{
+    animation: moveWave3 1s 0.7s ease-in-out infinite alternate;
+  }
+  @keyframes moveWave1{
+    from{
+      transform: translateX(25px);
+    }
+  }
+  
+  @keyframes moveWave2{
+    from{
+      transform: translateX(-18px);
+    }
+  }
+  
+  @keyframes moveWave3{
+    from{
+      transform: translateX(-16px);
+    }
+  }
