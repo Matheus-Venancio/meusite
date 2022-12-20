@@ -12,9 +12,9 @@ export default function Header() {
             <ul>
                 <li><a href="#home"><FontAwesomeIcon icon={faHouse} /></a></li>
                 <li><a href="#about"><FontAwesomeIcon icon={faUser} /></a></li>
-                <li><a href="#services"><FontAwesomeIcon icon={faBrain}/></a></li>
-                <li><a href="#"><FontAwesomeIcon icon={faCode}/></a></li>
-                <li><a href="#"><FontAwesomeIcon icon={faPhone}/></a></li>
+                <li><a href="#skills"><FontAwesomeIcon icon={faBrain}/></a></li>
+                <li><a href="#projects"><FontAwesomeIcon icon={faCode}/></a></li>
+                <li><a href="#contact"><FontAwesomeIcon icon={faPhone}/></a></li>
             </ul>
         </nav>
 
