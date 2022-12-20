@@ -31,22 +31,7 @@
   font-size: 1.9rem;
 }
 
-#about .video {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 3rem;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 5rem;
-}
 
-#about .video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 @media (min-width: 1024px) {
   /*------------ABOUT-----------*/
@@ -98,26 +83,4 @@
   }
 
 
-  #about .video {
-    width: 100%;
-  
-    margin-top: 2rem;
-  }
-
-  #about .video iframe {
-    width: 60rem;
-    top: 0;
-    left: 20%;
-    height: 40rem;
-  }
-}
-
-@media (max-width: 800px) {
- 
-
-  #about .video iframe {
-    width: 40rem;
-    height: 30rem;
-    left: 10%;
-  }
 }

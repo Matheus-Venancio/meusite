@@ -1,5 +1,6 @@
 import React from "react"
 import './styles.css';
+import ImageKeen from "../../Components/ImageKeen";
 export default function About() {
 
 
@@ -30,11 +31,8 @@ export default function About() {
 
           </div>
         </div>
-        {/**<Carrousel />**/}
-        <div className="video">
-          <iframe src="https://www.youtube.com/embed/lZGYbLuNNMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        </div>
+       
+        <ImageKeen />
       </div>
     </section>
   )
