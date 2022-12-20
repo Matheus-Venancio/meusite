@@ -32,8 +32,8 @@
   background: rgb(255, 75, 64);
   background: linear-gradient(
     128deg,
-    rgba(212, 164, 1, 100) 0%,
-    rgba(255, 231, 2, 100) 100%
+    rgba(8, 110, 166, 100) 0%,
+    rgba(5, 79, 119, 100) 100%
   );
 }
 
@@ -41,8 +41,8 @@
   background: rgb(182, 255, 64);
   background: linear-gradient(
     128deg,
-    rgba(38, 131, 0, 100) 0%,
-    rgba(2, 255, 18, 100) 100%
+    rgba(0, 128, 128, 100) 0%,
+    rgba(4, 162, 162, 100) 100%
   );
 }
 
@@ -50,8 +50,8 @@
   background: rgb(64, 255, 242);
   background: linear-gradient(
     128deg,
-    rgba(18, 0, 125, 100) 0%,
-    rgba(2, 75, 255, 100) 100%
+    rgba(0, 128, 0, 100) 0%,
+    rgba(4, 163, 4, 100) 100%
   );
 }
 

@@ -11,28 +11,28 @@
 }
 
 .waves .wave#wave1 {
-  z-index: 1000;
+  z-index: 99;
   opacity: 1;
   margin-bottom: 0;
   animation: moveWave 5s linear infinite;
 }
 
 .waves .wave#wave2 {
-  z-index: 999;
+  z-index: 98;
     opacity: .5;
     margin-bottom: 10px;
    animation: moveWave 4s linear infinite;
 }
 
 .waves .wave#wave3 {
-  z-index: 1000;
+  z-index: 99;
   opacity: .2;
   margin-bottom: 15px;
   animation: moveWave 3s linear infinite;
 }
 
 .waves .wave#wave4 {
-  z-index: 999;
+  z-index: 98;
   opacity: .7;
   margin-bottom: 20px;
   animation: moveWave 2s linear infinite;

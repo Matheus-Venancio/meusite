@@ -41,6 +41,6 @@
   #navigation a:hover {  
     font-size: 1.6rem;
     font-family: 'poppins',sans-serif;
-    color: var(--green-flourescent);
+    color: var(--headline--);
   }
 

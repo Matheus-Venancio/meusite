@@ -58,7 +58,6 @@ export default function Contact() {
           </div>
         </div>
 
-
         <div class="col-b">
           <Form />
         </div>

@@ -73,12 +73,12 @@
   }
 
   #about .col-a .content p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 150%;
     font-weight: 400;
     font-family: "Roboto Slab", sans-serif;
-    color: var(--paragraph--);
-    margin-top: 3rem;
+    color: var(--brand-beige);
+    margin-top: 2rem;
   }
 }
 

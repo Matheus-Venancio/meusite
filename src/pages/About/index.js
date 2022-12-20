@@ -15,9 +15,15 @@ export default function About() {
 
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis neque exercitationem dolorum
-              perferendis eaque? Dolor sit voluptate repellat, dignissimos nam dolorem ipsum, magnam ducimus
-              voluptatem, mollitia excepturi explicabo odio eius.
+              Sou um desenvolvedor Full-Stack que mora em Campinas-sp, formado no curso tecnico de Desenvolvimento de sistemas pelo Senai
+              e estou cursando o ensino superior de analise e desenvolvimento de sistema pela Unip.</p>
+            <p>
+              Gosto muito de esporte e de ler, sou fã de filosofia classica e de futebol, sendo até arbitro. Por conta disso, sou muito
+              comunicativo e proativo, sempre em busca de evoluir os meus conhecimentos.
+            </p>
+            <p>
+              Atualmente estou estudando Desenvolvimento web, arduino, azure e sobre desenvolvimento pessoal e autocontrole.
+
             </p>
 
             <button>Baixar CV</button>
