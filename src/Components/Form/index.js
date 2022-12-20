@@ -4,7 +4,11 @@ import { IMaskInput } from "react-imask";
 
 import './styles.css';
 
+
 export default function Form() {
+ 
+
+
   function clickSend(){
     alert("Enviado com sucesso");
   }
@@ -35,17 +39,18 @@ export default function Form() {
         </div>
         <div className='inputs'>
           <IMaskInput
-            mask="(00) 0000-0000"
+            mask="(00) 00000-0000"
             placeholder="Telefonei"
             className="input_form" required name="user_phone"
+           
           />
 
         </div>
         <div className='inputs'>
-          <textarea className='text_area' placeholder='digite algo' rows="4" cols="50" maxLength="50" name="message" required></textarea>
+          <textarea className='text_area' placeholder='digite algo' rows="4" cols="50" maxLength="50" name="message" required ></textarea>
         </div>
         <div className='inputs'>
-          <input type="submit" value="Send" className='button_form' onClick="clickSend()"></input>
+          <input type="submit" value="Send" className='button_form' onClick={clickSend} text=""></input>
         </div>
       </div>
     </form>

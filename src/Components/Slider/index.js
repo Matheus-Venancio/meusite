@@ -3,8 +3,7 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import './styles.css';
 import { Button } from "react-bootstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+
 
 
 export default function Slider() {
@@ -27,13 +26,13 @@ export default function Slider() {
         <div class="image__overlay image__overlay--primary">
 
           <div class="image__title">Doctorcare</div>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://github.com/Matheus-Venancio/Doctorcare" target="_blank">
             <p class="image__description">
               Desenvolvi um site exemplo para uma assistencia medica usando html, css e javascript
               Clique para ir até o repositorio.
             </p>
           </a>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://github.com/Matheus-Venancio/Doctorcare" target="_blank">
             <p class="image__description">
               Clique para ir até o repositorio.
             </p>
@@ -48,13 +47,13 @@ export default function Slider() {
         <div class="image__overlay image__overlay--primary">
 
           <div class="image__title">Card</div>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://github.com/Matheus-Venancio/Cartao_explorer" target="_blank">
             <p class="image__description">
               Esse projeto consegue identificar a bandeira de seu cartão apenas com alguns numeros informados,
               assim você tem a facilidade na hora de prencher os dados.
             </p>
           </a>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://github.com/Matheus-Venancio/Cartao_explorer" target="_blank">
             <p class="image__description">
               Clique para ir até o repositorio.
             </p>
@@ -68,13 +67,13 @@ export default function Slider() {
         <div class="image__overlay image__overlay--primary">
 
           <div class="image__title">Soft floor</div>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://softflooreco.com/" target="_blank">
             <p class="image__description">
               A empresa Softfloor entrou em contato comigo para desenvolver um site de aprensentação deles.
               Desenvolvi com HTML, CSS e JS.
             </p>
           </a>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://softflooreco.com/" target="_blank">
             <p class="image__description">
               Clique para ir até o repositorio.
             </p>
@@ -88,13 +87,13 @@ export default function Slider() {
         <div class="image__overlay image__overlay--primary">
 
           <div class="image__title">Sistema Finanças</div>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://github.com/Matheus-Venancio/controlefinanceiro" target="_blank">
             <p class="image__description">
               Desenvolvi um sistema de controle financeiro que você consegue ver aonde gastou mais e ter 
               o controle sobre isso.
             </p>
           </a>
-          <a href="https://github.com/Matheus-Venancio/Doctorcare">
+          <a href="https://github.com/Matheus-Venancio/controlefinanceiro" target="_blank">
             <p class="image__description">
               Clique para ir até o repositorio.
             </p>
