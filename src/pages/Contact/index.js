@@ -14,7 +14,7 @@ export default function Contact() {
  
       <div class="wrapper">
 
-        <div class="col-a">
+        <div class="col-a" data-aos="fade-left">
           <header>
 
             <h2>Frases que me definem</h2>

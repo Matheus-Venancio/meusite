@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <section id="projects">
             <div class="wrapper">
-                <header>
+                <header data-aos="fade-up">
                     <h4>Meus</h4>
                     <h2>Projetos</h2>
                 </header>

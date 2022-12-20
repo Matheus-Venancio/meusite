@@ -20,7 +20,7 @@ export default function Slider() {
 
   return (
 
-    <div ref={sliderRef} className="keen-slider">
+    <div ref={sliderRef} className="keen-slider" data-aos="fade-down">
       <div className="keen-slider__slide number-slide1">
         <img className="photo" src={require("../../img/projectsimg/doctorcare.PNG")} />
 

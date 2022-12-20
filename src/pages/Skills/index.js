@@ -7,13 +7,13 @@ export default function Skills() {
 
     return (
         <section id="skills">
-              <header>
+              <header data-aos="fade-up">
                     <h4>Minhas</h4>
                     <h2>Skills</h2>
                 </header>
             <div className="container">
           
-                <div className="box-grid">
+                <div className="box-grid" data-aos="fade-left">
                     <h2>Front-end delevoper</h2>
                     <div className="box">
                         <div className="content">
@@ -32,7 +32,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="box-grid">
+                <div className="box-grid" data-aos="fade-right">
                     <h2>Back-end delevoper</h2>
                     <div className="box">
                         <div className="content">
@@ -48,7 +48,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="box-grid">
+                <div className="box-grid" data-aos="fade-left">
                     <h2>Mobile delevoper</h2>
                     <div className="box">
                         <div className="content">
@@ -64,7 +64,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="box-grid">
+                <div className="box-grid" data-aos="fade-right">
                     <h2>Database</h2>
                     <div className="box">
                         <div className="content">

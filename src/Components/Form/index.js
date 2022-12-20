@@ -25,7 +25,7 @@ export default function Form() {
 
   return (
 
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} data-aos="fade-right">
       <div className='form_container'>
         <div className='inputs'>
           <input type='text' placeholder="Nome" className="input_form" required maxLength="30" name="user_name" />

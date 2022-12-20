@@ -10,7 +10,7 @@ export default function Home() {
    {/** <BackgroundHome />*/} 
       <div class="wrapper">
       
-        <div class="col-a">
+        <div class="col-a" data-aos="fade-up">
           <div className="loader">
             
           </div>
@@ -24,7 +24,7 @@ export default function Home() {
 
 
         <div class="col-b">
-          <div className="animationPhoto">
+          <div className="animationPhoto" data-aos="fade-up">
             <img className="photo" src={require("../../img/player.gif")} />
           </div>
         </div>
