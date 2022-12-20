@@ -1,52 +1,48 @@
 
-.config-waves{
-    position: relative;
-    width: 100%;
-    margin-right: -4rem;
-    z-index: 10;
-  
-  }
-  
-  .config-waves {
-  
-    width: 100%;
-  }
-  
-  .waves{
-    position: absolute;
-    bottom: 6rem;
-    left: 0;
-    right: 0;
-  
-  }
-  
-  
-  .wave-1{
-    animation: moveWave1 0.8s ease-in-out infinite alternate;
 
-  }
-  
-  .wave-2{
-    animation: moveWave2 0.8s 1.2s ease-in-out infinite alternate;
-  }
-  
-  .wave-3{
-    animation: moveWave3 0.8s 0.7s ease-in-out infinite alternate;
-  }
-  @keyframes moveWave1{
-    from{
-      transform: translateX(25px);
+.waves .wave{
+  margin-top: -23rem;
+    position: absolute;
+    background: url("../../img/wavespurple.png");
+    height: 100px;
+    width: 100%;
+    left: 0;
+    background-size: 1000px 100px;
+}
+
+.waves .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  margin-bottom: 0;
+  animation: moveWave 5s linear infinite;
+}
+
+.waves .wave#wave2 {
+  z-index: 999;
+    opacity: .5;
+    margin-bottom: 10px;
+   animation: moveWave 4s linear infinite;
+}
+
+.waves .wave#wave3 {
+  z-index: 1000;
+  opacity: .2;
+  margin-bottom: 15px;
+  animation: moveWave 3s linear infinite;
+}
+
+.waves .wave#wave4 {
+  z-index: 999;
+  opacity: .7;
+  margin-bottom: 20px;
+  animation: moveWave 2s linear infinite;
+}
+
+  @keyframes moveWave{
+    0%{
+      background-position-x: 0px;
     }
-  }
-  
-  @keyframes moveWave2{
-    from{
-      transform: translateX(-18px);
-    }
-  }
-  
-  @keyframes moveWave3{
-    from{
-      transform: translateX(-16px);
+    100%{
+      background-position-x: 1000px;
     }
   }

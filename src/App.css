@@ -8,7 +8,8 @@
   font-size: 62.5%; /**Usa isso e os rem para os textos ficarem flexiveis**/
   --hue: 0;
   --primary-color--: #000;
-  --headline--: #ff0066;
+  --headline--: #9400d3;
+  --headline2--: #ff0066;
   --paragraph--: #a9a9a9;
   --brand-beige: #202020;
   --green-flourescent: #39ff14;

@@ -11,9 +11,8 @@ export default function Contact() {
   
     <section id="contact">
        <WavesEffect />
+ 
       <div class="wrapper">
-
-
 
         <div class="col-a">
           <header>
