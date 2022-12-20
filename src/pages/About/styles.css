@@ -12,7 +12,7 @@
   background: var(--headline--);
   border-style: none;
   width: 18rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
   height: 5rem;
   cursor: pointer;
   font-size: 1.7rem;
@@ -31,7 +31,17 @@
   font-size: 1.9rem;
 }
 
+.social{
+  margin-top: -3rem;
+}
+.social li a svg{
+  color: var(--headline--);
+}
 
+.social li a svg:hover{
+  width: 3rem;
+  transition: 1s;
+}
 
 @media (min-width: 1024px) {
   /*------------ABOUT-----------*/
