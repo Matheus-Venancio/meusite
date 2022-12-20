@@ -173,11 +173,6 @@
 
 }
 
-.image__title {
-	font-size: 4rem;
-	font-weight: bold;
-
-}
 
 
 @media (max-width: 950px) {
@@ -199,6 +194,15 @@
     width: 14rem;
     height: 7.6rem;
   }
+
+  .image__title {
+    font-size: 1.8rem;
+
+  }
+  .image__overlay a p{
+    font-size: 1.4rem;
+  }
+  
 
  }
 

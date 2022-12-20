@@ -19,7 +19,7 @@ export default function Home() {
           <h3 class="line-1 anim-typewriter">Full-Stack Developer</h3>
           <p>
             Me chamo Matheus Venâncio Cordeiro, mas pode me chamar de Venâncio, tenho 19 anos e sou apaixonado por tecnologias, livros e esportes</p>
-          <button class="botao">Sobre mim</button>
+          <a href="#about"><button class="botao">Sobre mim</button></a>
         </div>
 
 

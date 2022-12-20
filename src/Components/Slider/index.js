@@ -108,8 +108,8 @@ export default function Slider() {
           <h3>Mais em breve...</h3>
           <p>Me acompanhe para saber mais</p>
           <div className="button-flex">
-            <Button><FontAwesomeIcon icon={faLink} />GitHub</Button>
-            <Button><FontAwesomeIcon icon={faLink} />GitHub</Button>
+            <a href="https://github.com/Matheus-Venancio" target="_blank"><Button>GitHub</Button></a>
+            <a href="https://www.linkedin.com/in/matheusvenanciocordeiro/" target="_blank"><Button>Linkedin</Button></a>
           </div>
         </div>
       </div>
