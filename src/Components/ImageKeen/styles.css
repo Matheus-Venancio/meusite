@@ -56,3 +56,12 @@
   );
 }
 
+
+@media (max-width: 1011px) {
+  .keen-slider {
+    height: 35.8rem;
+  }
+
+
+
+}

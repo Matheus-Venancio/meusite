@@ -1,36 +1,34 @@
-
 /*---------FOOTER--------------*/
 footer {
-    background-color: var(--headline--);
-    text-align: left;
-    color: white;
-  }
-  
-  footer p {
-    color: white;
-    line-height: 2;
-    margin-bottom: 3.2rem;
-    font-family: 'poppins',sans-serif;
-    font-weight: 300;
-  }
-  
-  footer .col-b{
-margin-left: -6rem;
-  }
-  footer .social-links {
-    justify-content: flex-start;
-    cursor: pointer;
-    font-weight: 400;
-  }
-  
-  footer .social-links a:hover {
-    background: var(--headline--);
-    transition: 1s;
-    font-size: 17px;
-  }
-  
-  @media (min-width: 1024px) {
-    
+  background-color: var(--headline--);
+  text-align: left;
+  color: white;
+}
+
+footer p {
+  color: white;
+  line-height: 2;
+  margin-bottom: 3.2rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+}
+
+footer .col-b {
+  margin-left: -6rem;
+}
+footer .social-links {
+  justify-content: flex-start;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+footer .social-links a:hover {
+  background: var(--headline--);
+  transition: 1s;
+  font-size: 17px;
+}
+
+@media (min-width: 1024px) {
   /*------------FOOTER-----------------*/
   footer {
     padding-block: 8rem;
@@ -51,4 +49,10 @@ margin-left: -6rem;
   footer p {
     margin-bottom: 0;
   }
+}
+
+@media (max-width: 900px) {
+  footer {
+    margin-top: 11rem;
   }
+}
