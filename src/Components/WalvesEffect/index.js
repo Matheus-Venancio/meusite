@@ -13,7 +13,7 @@ export default function WavesEffect() {
       <div id="wave3" className="wave"></div>
       <div id="wave4" className="wave"></div>
     </div>
-   
+
   )
 }
 

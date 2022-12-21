@@ -1,46 +1,44 @@
+#navigation {
+  width: 290px;
+  height: 62px;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  top: 87%;
+  transform: translate(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
 
-  #navigation {
-    width: 290px;
-    height: 62px;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 100;
-    position: fixed;
-    left: 50%;
-    top: 87%;
-    transform: translate(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
-  }
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
 
-  ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 27px;
-  }
+#navigation a {
+  background: transparent;
+  padding: 0.7rem;
+  border-radius: 50%;
+  display: flex;
+  transition: all ease-in-out 0.3s;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
 
-  #navigation a {
-    background: transparent;
-    padding: 0.7rem;
-    border-radius: 50%;
-    display: flex;
-    transition: all ease-in-out 0.3s;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  #navigation a:hover {  
-    font-size: 1.6rem;
-    font-family: 'poppins',sans-serif;
-    color: var(--headline--);
-  }
-
+#navigation a:hover {
+  font-size: 1.6rem;
+  font-family: "poppins", sans-serif;
+  color: var(--headline--);
+}

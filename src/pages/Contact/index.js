@@ -8,10 +8,10 @@ export default function Contact() {
 
 
   return (
-  
+
     <section id="contact">
-       <WavesEffect />
- 
+      <WavesEffect />
+
       <div class="wrapper">
 
         <div class="col-a" data-aos="fade-left">

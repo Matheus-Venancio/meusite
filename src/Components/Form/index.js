@@ -6,10 +6,10 @@ import './styles.css';
 
 
 export default function Form() {
- 
 
 
-  function clickSend(){
+
+  function clickSend() {
     alert("Enviado com sucesso");
   }
   const form = useRef();
@@ -42,7 +42,7 @@ export default function Form() {
             mask="(00) 00000-0000"
             placeholder="Telefone"
             className="input_form" required name="user_phone"
-           
+
           />
 
         </div>
@@ -50,7 +50,7 @@ export default function Form() {
           <textarea className='text_area' placeholder='digite algo' rows="4" cols="50" maxLength="50" name="message" required ></textarea>
         </div>
         <div className='inputs'>
-          <input type="submit" value="Send" className='button_form' onClick={clickSend} text=""></input>
+          <input type="submit" value="ENVIAR" className='button_form' onClick={clickSend} text=""></input>
         </div>
       </div>
     </form>

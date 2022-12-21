@@ -1,78 +1,74 @@
-
 /*---------CONTACT--------------*/
 #contact {
-    text-align: left;
-    background: var(--headline--);
-    margin-bottom: -11rem;
-  }
+  text-align: left;
+  background: var(--headline--);
+  margin-bottom: -11rem;
+}
 
+#contact .phrases .words {
+  font-size: 1.4rem;
+  color: var(--brand-beige);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
-  
-  #contact .phrases .words {
-    font-size: 1.4rem;
-    color: var(--brand-beige);
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  #contact .phrases .people {
-    font-size: 1.2rem;
-    color: #fff;
-    margin-top: 1.2rem;
-    margin-bottom: 3rem;
-    font-family: "Roboto Slab", sans-serif;
-  }
-  
-  #contact ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-    margin-bottom: 3.2rem;
-   
-  }
-  
-  #contact ul li {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    margin-left: -26rem;
-  }
-  
-  #contact ul li h2 {
-    margin-top: 2rem;
-    margin-left: -10rem;
-  }
-  
-  #contact .button {
-    background: #34af23;
-    border: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 1.4rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    margin-bottom: 6rem;
-    padding: 1.6rem 3.2rem;
-    width: 25rem;
-    border-radius: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.6rem;
-    text-decoration: none;
-    transition: background 200ms;
-  }
-  
-  #contact .button:hover {
-    background: var(--headline--);
-  }
-  
-  @media (min-width: 1024px) {
-    /*------------CONTACT-----------*/
+#contact .phrases .people {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+#contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-left: -26rem;
+}
+
+#contact ul li h2 {
+  margin-top: 2rem;
+  margin-left: -10rem;
+}
+
+#contact .button {
+  background: #34af23;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 6rem;
+  padding: 1.6rem 3.2rem;
+  width: 25rem;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  text-decoration: none;
+  transition: background 200ms;
+}
+
+#contact .button:hover {
+  background: var(--headline--);
+}
+
+@media (min-width: 1024px) {
+  /*------------CONTACT-----------*/
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
     grid-template-areas: "A B";
@@ -82,18 +78,16 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
   }
+}
+
+@media (max-width: 1000px) {
+  #contact .col-a {
+    text-align: center;
   }
 
-  @media (max-width: 1000px) {
-    #contact .col-a {
-      text-align: center;
-    }
-
-    #contact .col-a .button {
+  #contact .col-a .button {
     top: 0%;
 
     margin-top: 5rem;
-    }
-
-   }
-
+  }
+}

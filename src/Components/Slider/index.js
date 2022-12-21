@@ -89,7 +89,7 @@ export default function Slider() {
           <div class="image__title">Sistema Finanças</div>
           <a href="https://github.com/Matheus-Venancio/controlefinanceiro" target="_blank">
             <p class="image__description">
-              Desenvolvi um sistema de controle financeiro que você consegue ver aonde gastou mais e ter 
+              Desenvolvi um sistema de controle financeiro que você consegue ver aonde gastou mais e ter
               o controle sobre isso.
             </p>
           </a>

@@ -12,9 +12,9 @@ import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 
 function App() {
-  useEffect(() =>{
-    Aos.init({duration:2000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
     <div className="App">
       <Home />

@@ -1,13 +1,11 @@
-
-
-.waves .wave{
+.waves .wave {
   margin-top: -23rem;
-    position: absolute;
-    background: url("../../img/wavespurple.png");
-    height: 100px;
-    width: 100%;
-    left: 0;
-    background-size: 1000px 100px;
+  position: absolute;
+  background: url("../../img/wavespurple.png");
+  height: 100px;
+  width: 100%;
+  left: 0;
+  background-size: 1000px 100px;
 }
 
 .waves .wave#wave1 {
@@ -19,37 +17,36 @@
 
 .waves .wave#wave2 {
   z-index: 98;
-    opacity: .5;
-    margin-bottom: 10px;
-   animation: moveWave 4s linear infinite;
+  opacity: 0.5;
+  margin-bottom: 10px;
+  animation: moveWave 4s linear infinite;
 }
 
 .waves .wave#wave3 {
   z-index: 99;
-  opacity: .2;
+  opacity: 0.2;
   margin-bottom: 15px;
   animation: moveWave 3s linear infinite;
 }
 
 .waves .wave#wave4 {
   z-index: 98;
-  opacity: .7;
+  opacity: 0.7;
   margin-bottom: 20px;
   animation: moveWave 2s linear infinite;
 }
 
-  @keyframes moveWave{
-    0%{
-      background-position-x: 0px;
-    }
-    100%{
-      background-position-x: 1000px;
-    }
+@keyframes moveWave {
+  0% {
+    background-position-x: 0px;
   }
+  100% {
+    background-position-x: 1000px;
+  }
+}
 
-  @media (max-width: 999px) {
-    
-    .waves .wave{
-      margin-top: -10rem;
-    }
-   }
+@media (max-width: 999px) {
+  .waves .wave {
+    margin-top: -10rem;
+  }
+}

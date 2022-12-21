@@ -1,5 +1,4 @@
 import React from "react"
-import BackgroundHome from "../../Components/BackgroundHome";
 import './styles.css';
 
 export default function Home() {
@@ -7,12 +6,12 @@ export default function Home() {
 
   return (
     <section id="home">
-   {/** <BackgroundHome />*/} 
+
       <div class="wrapper">
-      
+
         <div class="col-a">
           <div className="loader">
-            
+
           </div>
           <h2>Olá, eu sou</h2>
           <h1>Matheus Venâncio</h1>

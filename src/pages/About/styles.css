@@ -4,9 +4,6 @@
   background-color: #fff;
 }
 
-
-
-
 #about .content button {
   color: #fff;
   background: var(--headline--);
@@ -31,14 +28,14 @@
   font-size: 1.9rem;
 }
 
-.social{
+.social {
   margin-top: -3rem;
 }
-.social li a svg{
+.social li a svg {
   color: var(--headline--);
 }
 
-.social li a svg:hover{
+.social li a svg:hover {
   width: 3rem;
   transition: 1s;
 }
@@ -80,7 +77,6 @@
 @media (max-width: 1011px) {
   #about {
     height: 95.8rem;
-
   }
 
   #about .col-a {
@@ -92,15 +88,13 @@
     margin-top: 3rem;
   }
 
-  #about .col-a header{
-  margin-bottom: 4rem;
+  #about .col-a header {
+    margin-bottom: 4rem;
   }
 
-  .social{
+  .social {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
   }
-
-
 }

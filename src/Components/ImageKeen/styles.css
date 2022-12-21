@@ -1,4 +1,3 @@
-
 [class^="number-slide"],
 [class*=" number-slide"] {
   background: grey;
@@ -12,8 +11,8 @@
   max-height: 100vh;
 }
 
-.foto{
-    width: 100%;
+.foto {
+  width: 100%;
 }
 .number-slide1 {
   background: rgb(64, 175, 255);
@@ -56,12 +55,8 @@
   );
 }
 
-
 @media (max-width: 1011px) {
   .keen-slider {
     height: 35.8rem;
   }
-
-
-
 }

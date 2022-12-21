@@ -27,11 +27,8 @@
 }
 
 @media (max-width: 1020px) {
-  #projects{
-  height: 70rem;
-  padding: 15rem 0rem;
+  #projects {
+    height: 70rem;
+    padding: 15rem 0rem;
   }
-
- }
-
-
+}
