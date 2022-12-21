@@ -40,7 +40,7 @@ export default function Form() {
         <div className='inputs'>
           <IMaskInput
             mask="(00) 00000-0000"
-            placeholder="Telefonei"
+            placeholder="Telefone"
             className="input_form" required name="user_phone"
            
           />

@@ -1,18 +1,20 @@
 
 #contact form {
-    background: linear-gradient(
-      -45deg,
-      var(--bg-light),
-      var(--green-flourescent),
-      var(--brand-beige),
-      var(--headline--)
-    );
+  background-image: linear-gradient(#181818, #262626);
     background-size: 400% 400%;
+    box-shadow: 5px 10px 28px 5px #000000;
     animation: gradient 1s ease infinite;
     height: 500px;
     border-radius: 40px;
     width: 70%;
     margin-left: 110px;
+  }
+
+  #contact form:hover{
+    box-shadow: 5px 10px 28px 5px var(--green-flourescent);
+    height: 550px;
+    width: 73%;
+    transition: 2s;
   }
   
   #contact form .form_container {
