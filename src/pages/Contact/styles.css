@@ -70,24 +70,9 @@
 @media (min-width: 1024px) {
   /*------------CONTACT-----------*/
   #contact .wrapper {
+    display: grid;
     grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: "A B";
-  }
-
-  #contact h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-  }
-}
-
-@media (max-width: 1000px) {
-  #contact .col-a {
-    text-align: center;
-  }
-
-  #contact .col-a .button {
-    top: 0%;
-
-    margin-top: 5rem;
+    gap: 2rem;
+   
   }
 }
