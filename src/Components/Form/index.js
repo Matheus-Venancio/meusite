@@ -14,10 +14,10 @@ export default function Form() {
 
   const handleChange = (e, setter) => {
     setter(e.target.value);
-  }
+  };
   const clickSend = (e) => {
     e.preventDefault();
-    const myphone = "+5519989145453";
+    const myphone = "+5519981466623";
     const url = `https://wa.me/${myphone}?text=*Nome:* ${name} %0A*Email:* ${email} %0A*Telefone:* ${phone} %0A*Mensagem:* ${text}`;
     window.open(url, "_blank");
   };
