@@ -46,7 +46,7 @@ export default function ImageKeen() {
 
   return (
     <>
-      <div ref={sliderRef} className="keen-slider" data-aos="fade-left">
+      <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">
           <img className="foto" src={require("../../img/imageabout/imagefirst.jpg")} alt="Slide 1" />
         </div>

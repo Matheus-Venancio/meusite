@@ -13,7 +13,7 @@ export default function Skills() {
             </header>
             <div className="container">
 
-                <div className="box-grid" data-aos="fade-left">
+                <div className="box-grid" data-aos="fade-top">
                     <h2>Front-end delevoper</h2>
                     <div className="box">
                         <div className="content">
@@ -32,7 +32,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="box-grid" data-aos="fade-right">
+                <div className="box-grid" data-aos="fade-top">
                     <h2>Back-end delevoper</h2>
                     <div className="box">
                         <div className="content">
@@ -46,7 +46,7 @@ export default function Skills() {
                         </div>
                     </div>
                 </div>
-                <div className="box-grid" data-aos="fade-left">
+                <div className="box-grid" data-aos="fade-top">
                     <h2>Developer tools </h2>
                     <div className="box">
                         <div className="content">
@@ -79,7 +79,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="box-grid" data-aos="fade-left">
+                <div className="box-grid" data-aos="fade-top">
                     <h2>Mobile delevoper</h2>
                     <div className="box">
                         <div className="content">
@@ -95,7 +95,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="box-grid" data-aos="fade-right">
+                <div className="box-grid" data-aos="fade-top">
                     <h2>Database</h2>
                     <div className="box">
                         <div className="content">

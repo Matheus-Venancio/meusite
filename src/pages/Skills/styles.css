@@ -84,9 +84,9 @@
   }
 
   .box-grid {
-    width: 39rem;
-    margin-top: -2.6rem;
-    height: 41rem;
+    width: 37rem;
+
+    height: 35rem;
   }
 
   .box-grid .box {
@@ -101,6 +101,6 @@
   }
 
   .box-grid .box .content h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }

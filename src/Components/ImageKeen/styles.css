@@ -64,3 +64,9 @@
     height: 35.8rem;
   }
 }
+
+@media (max-width: 600px) {
+  .keen-slider {
+    margin: -30px 0 40px 0;
+  }
+}

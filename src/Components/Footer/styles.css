@@ -53,6 +53,13 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   footer {
-    margin-top: 11rem;
+    text-align: center;
+
+  }
+
+  footer .wrapper .col-b {
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }

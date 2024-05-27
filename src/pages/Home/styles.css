@@ -2,7 +2,7 @@
   padding-block: 0;
   padding-top: calc(
     4.1rem + var(--nav-height)
-  ); /**Ele permite  fazer  soma dos dois**/
+  );
   background: var(--primary-color--);
   height: 65.8rem;
 }
@@ -31,6 +31,7 @@
   box-sizing: border-box;
   border: 3px solid var(--headline--);
   animation: animate 2s linear infinite;
+
 }
 
 @keyframes animate {
@@ -83,6 +84,7 @@
   font-weight: 800;
   font-size: 2.7rem;
   color: #fff;
+
 }
 .line-1 {
   position: relative;
@@ -92,6 +94,7 @@
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   white-space: nowrap;
   overflow: hidden;
+  
 }
 
 /* Animation */
@@ -120,9 +123,10 @@
   line-height: 150%;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  font-size: 4rem;
+  font-size: 3.2rem;
   color: #fff;
   margin: 2.5rem 0px;
+
 }
 
 #home p {
@@ -171,12 +175,12 @@
     grid-template-columns: 60.5rem 1fr;
     grid-template-areas:
       "A B"
-      "C C"; /**PARA posicionar como desejka**/
+      "C C"; 
   }
 
   #home .col-a {
     text-align: left;
-    align-self: center; /**Alinha bem ao centro dele*/
+    align-self: center;
   }
 
   #home h1 {
@@ -203,11 +207,27 @@
 }
 
 @media (max-width: 600px) {
+  #home .wrapper{
+    width: 100%;
+  }
   #home .animationPhoto {
-    width: 20.4rem;
+    width: 30.4rem;
   }
 
   #home .col-b img {
-    width: 27rem;
+    width: 30rem;
+  }
+
+  #home .col-a {
+    text-align: center;
+    align-items: center;
+  }
+
+  #home h3 {
+    margin: auto;
+  }
+
+  #home h1 {
+    margin: auto;
   }
 }

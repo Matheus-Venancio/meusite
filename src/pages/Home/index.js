@@ -10,9 +10,7 @@ export default function Home() {
       <div class="wrapper">
 
         <div class="col-a">
-          <div className="loader">
-
-          </div>
+          <div className="loader"></div>
           <h2>Olá, me chamo</h2>
           <h1>Matheus Venâncio</h1>
           <h3 class="line-1 anim-typewriter">Full-Stack Developer</h3>
